@@ -1,0 +1,484 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="14.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="..\packages\EntityFramework.6.4.4\build\EntityFramework.props" Condition="Exists('..\packages\EntityFramework.6.4.4\build\EntityFramework.props')" />
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{1BD376BF-3F92-47AD-BE16-18979429A092}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>TSS.UserInterface</RootNamespace>
+    <AssemblyName>TSS.UserInterface</AssemblyName>
+    <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <NuGetPackageImportStamp>
+    </NuGetPackageImportStamp>
+    <TargetFrameworkProfile />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="EntityFramework, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, processorArchitecture=MSIL">
+      <HintPath>..\packages\EntityFramework.6.4.4\lib\net45\EntityFramework.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="EntityFramework.SqlServer, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, processorArchitecture=MSIL">
+      <HintPath>..\packages\EntityFramework.6.4.4\lib\net45\EntityFramework.SqlServer.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.ComponentModel.DataAnnotations" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Data.SQLite, Version=1.0.115.5, Culture=neutral, PublicKeyToken=db937bc2d44ff139, processorArchitecture=MSIL">
+      <HintPath>..\packages\Stub.System.Data.SQLite.Core.NetFramework.1.0.115.5\lib\net45\System.Data.SQLite.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="System.Data.SQLite.EF6, Version=1.0.115.5, Culture=neutral, PublicKeyToken=db937bc2d44ff139, processorArchitecture=MSIL">
+      <HintPath>..\packages\System.Data.SQLite.EF6.1.0.115.5\lib\net45\System.Data.SQLite.EF6.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="System.Data.SQLite.Linq, Version=1.0.115.5, Culture=neutral, PublicKeyToken=db937bc2d44ff139, processorArchitecture=MSIL">
+      <HintPath>..\packages\System.Data.SQLite.Linq.1.0.115.5\lib\net45\System.Data.SQLite.Linq.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="System.Web.Extensions" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Dialog\MessageDialog.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Dialog\MessageDialog.Designer.cs">
+      <DependentUpon>MessageDialog.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Dialog\YesNoMessageDialog.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Dialog\YesNoMessageDialog.Designer.cs">
+      <DependentUpon>YesNoMessageDialog.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Hasher.cs" />
+    <Compile Include="Management\Add\ComponentAddForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Management\Add\ComponentAddForm.Designer.cs">
+      <DependentUpon>ComponentAddForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Management\Add\ComputerUnitAddForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Management\Add\ComputerUnitAddForm.Designer.cs">
+      <DependentUpon>ComputerUnitAddForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Management\Add\CustomerAddForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Management\Add\CustomerAddForm.Designer.cs">
+      <DependentUpon>CustomerAddForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Management\Add\DevicesComponentAddForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Management\Add\DevicesComponentAddForm.Designer.cs">
+      <DependentUpon>DevicesComponentAddForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Management\Add\EmployeeAddForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Management\Add\EmployeeAddForm.Designer.cs">
+      <DependentUpon>EmployeeAddForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Management\Add\HardwareAddForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Management\Add\HardwareAddForm.Designer.cs">
+      <DependentUpon>HardwareAddForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Management\Add\ProductAddForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Management\Add\ProductAddForm.Designer.cs">
+      <DependentUpon>ProductAddForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Management\Add\ProductPriceAddForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Management\Add\ProductPriceAddForm.Designer.cs">
+      <DependentUpon>ProductPriceAddForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Management\Add\TroubleAddForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Management\Add\TroubleAddForm.Designer.cs">
+      <DependentUpon>TroubleAddForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Management\Add\TroublePriceAdd.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Management\Add\TroublePriceAdd.Designer.cs">
+      <DependentUpon>TroublePriceAdd.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Management\Add\TroubleStatusAddForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Management\Add\TroubleStatusAddForm.Designer.cs">
+      <DependentUpon>TroubleStatusAddForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Management\Add\TroubleStatusChangeForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Management\Add\TroubleStatusChangeForm.Designer.cs">
+      <DependentUpon>TroubleStatusChangeForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Management\ApplicationSettings.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Management\ApplicationSettings.Designer.cs">
+      <DependentUpon>ApplicationSettings.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Management\Show\ComponentListForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Management\Show\ComponentListForm.Designer.cs">
+      <DependentUpon>ComponentListForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Management\Show\CustomerListForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Management\Show\CustomerListForm.Designer.cs">
+      <DependentUpon>CustomerListForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Management\Show\DeviceForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Management\Show\DeviceForm.Designer.cs">
+      <DependentUpon>DeviceForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Management\Show\DevicesListForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Management\Show\DevicesListForm.Designer.cs">
+      <DependentUpon>DevicesListForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Management\Show\EmployeeListForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Management\Show\EmployeeListForm.Designer.cs">
+      <DependentUpon>EmployeeListForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Management\Show\HardwareForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Management\Show\HardwareForm.Designer.cs">
+      <DependentUpon>HardwareForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Management\Show\HardwareListForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Management\Show\HardwareListForm.Designer.cs">
+      <DependentUpon>HardwareListForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Management\Show\HardwareTypeListForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Management\Show\HardwareTypeListForm.Designer.cs">
+      <DependentUpon>HardwareTypeListForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Management\Show\Home.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Management\Show\Home.Designer.cs">
+      <DependentUpon>Home.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Management\Show\MacListForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Management\Show\MacListForm.Designer.cs">
+      <DependentUpon>MacListForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Management\Show\ProductListForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Management\Show\ProductListForm.Designer.cs">
+      <DependentUpon>ProductListForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Management\Show\ProductCategoryListForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Management\Show\ProductCategoryListForm.Designer.cs">
+      <DependentUpon>ProductCategoryListForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Management\Show\ProductPriceListForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Management\Show\ProductPriceListForm.Designer.cs">
+      <DependentUpon>ProductPriceListForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Management\Show\CurrencyListForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Management\Show\CurrencyListForm.Designer.cs">
+      <DependentUpon>CurrencyListForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Management\Show\TroubleListForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Management\Show\TroubleListForm.Designer.cs">
+      <DependentUpon>TroubleListForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="HomeForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="HomeForm.Designer.cs">
+      <DependentUpon>HomeForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="LoginForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="LoginForm.Designer.cs">
+      <DependentUpon>LoginForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Management\Show\TroubleStatusListForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Management\Show\TroubleStatusListForm.Designer.cs">
+      <DependentUpon>TroubleStatusListForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Management\Show\TroubleViewForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Management\Show\TroubleViewForm.Designer.cs">
+      <DependentUpon>TroubleViewForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Management\UserControls\HardwareDriveObj.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Management\UserControls\HardwareDriveObj.Designer.cs">
+      <DependentUpon>HardwareDriveObj.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Management\UserControls\TroubleCommentObj.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Management\UserControls\TroubleCommentObj.Designer.cs">
+      <DependentUpon>TroubleCommentObj.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="StartSettingForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="StartSettingForm.Designer.cs">
+      <DependentUpon>StartSettingForm.cs</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="Dialog\MessageDialog.resx">
+      <DependentUpon>MessageDialog.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Dialog\YesNoMessageDialog.resx">
+      <DependentUpon>YesNoMessageDialog.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="HomeForm.resx">
+      <DependentUpon>HomeForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="LoginForm.resx">
+      <DependentUpon>LoginForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Management\Add\ComponentAddForm.resx">
+      <DependentUpon>ComponentAddForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Management\Add\ComputerUnitAddForm.resx">
+      <DependentUpon>ComputerUnitAddForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Management\Add\CustomerAddForm.resx">
+      <DependentUpon>CustomerAddForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Management\Add\DevicesComponentAddForm.resx">
+      <DependentUpon>DevicesComponentAddForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Management\Add\EmployeeAddForm.resx">
+      <DependentUpon>EmployeeAddForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Management\Add\HardwareAddForm.resx">
+      <DependentUpon>HardwareAddForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Management\Add\ProductAddForm.resx">
+      <DependentUpon>ProductAddForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Management\Add\ProductPriceAddForm.resx">
+      <DependentUpon>ProductPriceAddForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Management\Add\TroubleAddForm.resx">
+      <DependentUpon>TroubleAddForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Management\Add\TroublePriceAdd.resx">
+      <DependentUpon>TroublePriceAdd.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Management\Add\TroubleStatusAddForm.resx">
+      <DependentUpon>TroubleStatusAddForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Management\Add\TroubleStatusChangeForm.resx">
+      <DependentUpon>TroubleStatusChangeForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Management\ApplicationSettings.resx">
+      <DependentUpon>ApplicationSettings.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Management\Show\ComponentListForm.resx">
+      <DependentUpon>ComponentListForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Management\Show\CustomerListForm.resx">
+      <DependentUpon>CustomerListForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Management\Show\DeviceForm.resx">
+      <DependentUpon>DeviceForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Management\Show\DevicesListForm.resx">
+      <DependentUpon>DevicesListForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Management\Show\EmployeeListForm.resx">
+      <DependentUpon>EmployeeListForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Management\Show\HardwareForm.resx">
+      <DependentUpon>HardwareForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Management\Show\HardwareListForm.resx">
+      <DependentUpon>HardwareListForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Management\Show\HardwareTypeListForm.resx">
+      <DependentUpon>HardwareTypeListForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Management\Show\Home.resx">
+      <DependentUpon>Home.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Management\Show\MacListForm.resx">
+      <DependentUpon>MacListForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Management\Show\ProductListForm.resx">
+      <DependentUpon>ProductListForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Management\Show\ProductCategoryListForm.resx">
+      <DependentUpon>ProductCategoryListForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Management\Show\ProductPriceListForm.resx">
+      <DependentUpon>ProductPriceListForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Management\Show\CurrencyListForm.resx">
+      <DependentUpon>CurrencyListForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Management\Show\TroubleListForm.resx">
+      <DependentUpon>TroubleListForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Management\Show\TroubleStatusListForm.resx">
+      <DependentUpon>TroubleStatusListForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Management\Show\TroubleViewForm.resx">
+      <DependentUpon>TroubleViewForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Management\UserControls\HardwareDriveObj.resx">
+      <DependentUpon>HardwareDriveObj.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Management\UserControls\TroubleCommentObj.resx">
+      <DependentUpon>TroubleCommentObj.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <EmbeddedResource Include="StartSettingForm.resx">
+      <DependentUpon>StartSettingForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <None Include="packages.config" />
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config">
+      <SubType>Designer</SubType>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\error.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\information.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\warning.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\question.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\TSS.BusinessLayer\TSS.BusinessLayer.csproj">
+      <Project>{b0d9d637-374e-47da-b042-60fb89e4bd9d}</Project>
+      <Name>TSS.BusinessLayer</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\TSS.DataAccessLayer\TSS.DataLayer.csproj">
+      <Project>{96395731-3034-4ad8-988d-5e6ee8e2cad0}</Project>
+      <Name>TSS.DataLayer</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\TSS.Entities\TSS.Entities.csproj">
+      <Project>{f31e64fe-d34f-4a3e-a3e9-574c335c8709}</Project>
+      <Name>TSS.Entities</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\TSS.Tools\TSS.Tools.csproj">
+      <Project>{b33da95d-8114-446a-9dd1-b978a4fbdac8}</Project>
+      <Name>TSS.Tools</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <Target Name="EnsureNuGetPackageBuildImports" BeforeTargets="PrepareForBuild">
+    <PropertyGroup>
+      <ErrorText>This project references NuGet package(s) that are missing on this computer. Use NuGet Package Restore to download them.  For more information, see http://go.microsoft.com/fwlink/?LinkID=322105. The missing file is {0}.</ErrorText>
+    </PropertyGroup>
+    <Error Condition="!Exists('..\packages\EntityFramework.6.4.4\build\EntityFramework.props')" Text="$([System.String]::Format('$(ErrorText)', '..\packages\EntityFramework.6.4.4\build\EntityFramework.props'))" />
+    <Error Condition="!Exists('..\packages\EntityFramework.6.4.4\build\EntityFramework.targets')" Text="$([System.String]::Format('$(ErrorText)', '..\packages\EntityFramework.6.4.4\build\EntityFramework.targets'))" />
+    <Error Condition="!Exists('..\packages\Stub.System.Data.SQLite.Core.NetFramework.1.0.115.5\build\net45\Stub.System.Data.SQLite.Core.NetFramework.targets')" Text="$([System.String]::Format('$(ErrorText)', '..\packages\Stub.System.Data.SQLite.Core.NetFramework.1.0.115.5\build\net45\Stub.System.Data.SQLite.Core.NetFramework.targets'))" />
+  </Target>
+  <Import Project="..\packages\EntityFramework.6.4.4\build\EntityFramework.targets" Condition="Exists('..\packages\EntityFramework.6.4.4\build\EntityFramework.targets')" />
+  <Import Project="..\packages\Stub.System.Data.SQLite.Core.NetFramework.1.0.115.5\build\net45\Stub.System.Data.SQLite.Core.NetFramework.targets" Condition="Exists('..\packages\Stub.System.Data.SQLite.Core.NetFramework.1.0.115.5\build\net45\Stub.System.Data.SQLite.Core.NetFramework.targets')" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
