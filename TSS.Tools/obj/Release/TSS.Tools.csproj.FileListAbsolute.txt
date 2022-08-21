@@ -1,0 +1,14 @@
+C:\Users\Yusefuyn\Documents\Visual Studio 2015\Projects\Technical Services Software\Security\bin\Release\TSS.Security.dll.config
+C:\Users\Yusefuyn\Documents\Visual Studio 2015\Projects\Technical Services Software\Security\bin\Release\TSS.Security.dll
+C:\Users\Yusefuyn\Documents\Visual Studio 2015\Projects\Technical Services Software\Security\bin\Release\TSS.Security.pdb
+C:\Users\Yusefuyn\Documents\Visual Studio 2015\Projects\Technical Services Software\Security\bin\Release\EntityFramework.dll
+C:\Users\Yusefuyn\Documents\Visual Studio 2015\Projects\Technical Services Software\Security\bin\Release\EntityFramework.SqlServer.dll
+C:\Users\Yusefuyn\Documents\Visual Studio 2015\Projects\Technical Services Software\Security\bin\Release\System.Data.SQLite.dll
+C:\Users\Yusefuyn\Documents\Visual Studio 2015\Projects\Technical Services Software\Security\bin\Release\System.Data.SQLite.EF6.dll
+C:\Users\Yusefuyn\Documents\Visual Studio 2015\Projects\Technical Services Software\Security\bin\Release\System.Data.SQLite.Linq.dll
+C:\Users\Yusefuyn\Documents\Visual Studio 2015\Projects\Technical Services Software\Security\bin\Release\EntityFramework.xml
+C:\Users\Yusefuyn\Documents\Visual Studio 2015\Projects\Technical Services Software\Security\bin\Release\EntityFramework.SqlServer.xml
+C:\Users\Yusefuyn\Documents\Visual Studio 2015\Projects\Technical Services Software\Security\bin\Release\System.Data.SQLite.xml
+C:\Users\Yusefuyn\Documents\Visual Studio 2015\Projects\Technical Services Software\Security\obj\Release\TSS.Security.dll
+C:\Users\Yusefuyn\Documents\Visual Studio 2015\Projects\Technical Services Software\Security\obj\Release\TSS.Security.pdb
+C:\Users\Yusefuyn\Documents\Visual Studio 2015\Projects\Technical Services Software\Security\obj\Release\TSS.Tools.csprojResolveAssemblyReference.cache

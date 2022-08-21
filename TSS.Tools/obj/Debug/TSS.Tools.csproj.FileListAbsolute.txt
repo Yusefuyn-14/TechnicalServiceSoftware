@@ -1,0 +1,58 @@
+C:\Users\Yusefuyn\Documents\Visual Studio 2015\Projects\Technical Services Software\Security\bin\Debug\TSS.Security.dll.config
+C:\Users\Yusefuyn\Documents\Visual Studio 2015\Projects\Technical Services Software\Security\bin\Debug\TSS.Security.dll
+C:\Users\Yusefuyn\Documents\Visual Studio 2015\Projects\Technical Services Software\Security\bin\Debug\TSS.Security.pdb
+C:\Users\Yusefuyn\Documents\Visual Studio 2015\Projects\Technical Services Software\Security\bin\Debug\EntityFramework.dll
+C:\Users\Yusefuyn\Documents\Visual Studio 2015\Projects\Technical Services Software\Security\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\Yusefuyn\Documents\Visual Studio 2015\Projects\Technical Services Software\Security\bin\Debug\System.Data.SQLite.dll
+C:\Users\Yusefuyn\Documents\Visual Studio 2015\Projects\Technical Services Software\Security\bin\Debug\System.Data.SQLite.EF6.dll
+C:\Users\Yusefuyn\Documents\Visual Studio 2015\Projects\Technical Services Software\Security\bin\Debug\System.Data.SQLite.Linq.dll
+C:\Users\Yusefuyn\Documents\Visual Studio 2015\Projects\Technical Services Software\Security\bin\Debug\EntityFramework.xml
+C:\Users\Yusefuyn\Documents\Visual Studio 2015\Projects\Technical Services Software\Security\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\Yusefuyn\Documents\Visual Studio 2015\Projects\Technical Services Software\Security\bin\Debug\System.Data.SQLite.xml
+C:\Users\Yusefuyn\Documents\Visual Studio 2015\Projects\Technical Services Software\Security\obj\Debug\TSS.Security.dll
+C:\Users\Yusefuyn\Documents\Visual Studio 2015\Projects\Technical Services Software\Security\obj\Debug\TSS.Security.pdb
+C:\Users\Yusefuyn\Documents\Visual Studio 2015\Projects\Technical Services Software - Optimisation\TSS.Tools\bin\Debug\TSS.Security.dll.config
+C:\Users\Yusefuyn\Documents\Visual Studio 2015\Projects\Technical Services Software - Optimisation\TSS.Tools\bin\Debug\TSS.Security.dll
+C:\Users\Yusefuyn\Documents\Visual Studio 2015\Projects\Technical Services Software - Optimisation\TSS.Tools\bin\Debug\TSS.Security.pdb
+C:\Users\Yusefuyn\Documents\Visual Studio 2015\Projects\Technical Services Software - Optimisation\TSS.Tools\bin\Debug\EntityFramework.dll
+C:\Users\Yusefuyn\Documents\Visual Studio 2015\Projects\Technical Services Software - Optimisation\TSS.Tools\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\Yusefuyn\Documents\Visual Studio 2015\Projects\Technical Services Software - Optimisation\TSS.Tools\bin\Debug\System.Data.SQLite.dll
+C:\Users\Yusefuyn\Documents\Visual Studio 2015\Projects\Technical Services Software - Optimisation\TSS.Tools\bin\Debug\System.Data.SQLite.EF6.dll
+C:\Users\Yusefuyn\Documents\Visual Studio 2015\Projects\Technical Services Software - Optimisation\TSS.Tools\bin\Debug\System.Data.SQLite.Linq.dll
+C:\Users\Yusefuyn\Documents\Visual Studio 2015\Projects\Technical Services Software - Optimisation\TSS.Tools\bin\Debug\EntityFramework.xml
+C:\Users\Yusefuyn\Documents\Visual Studio 2015\Projects\Technical Services Software - Optimisation\TSS.Tools\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\Yusefuyn\Documents\Visual Studio 2015\Projects\Technical Services Software - Optimisation\TSS.Tools\bin\Debug\System.Data.SQLite.xml
+C:\Users\Yusefuyn\Documents\Visual Studio 2015\Projects\Technical Services Software - Optimisation\TSS.Tools\obj\Debug\TSS.Security.dll
+C:\Users\Yusefuyn\Documents\Visual Studio 2015\Projects\Technical Services Software - Optimisation\TSS.Tools\obj\Debug\TSS.Security.pdb
+C:\Users\Y1\Documents\Visual Studio 2019\Projects\Technical Services Software - YK-47 Edition SQLite\TSS.Tools\bin\Debug\TSS.Tools.dll.config
+C:\Users\Y1\Documents\Visual Studio 2019\Projects\Technical Services Software - YK-47 Edition SQLite\TSS.Tools\bin\Debug\TSS.Tools.dll
+C:\Users\Y1\Documents\Visual Studio 2019\Projects\Technical Services Software - YK-47 Edition SQLite\TSS.Tools\bin\Debug\TSS.Tools.pdb
+C:\Users\Y1\Documents\Visual Studio 2019\Projects\Technical Services Software - YK-47 Edition SQLite\TSS.Tools\bin\Debug\EntityFramework.dll
+C:\Users\Y1\Documents\Visual Studio 2019\Projects\Technical Services Software - YK-47 Edition SQLite\TSS.Tools\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\Y1\Documents\Visual Studio 2019\Projects\Technical Services Software - YK-47 Edition SQLite\TSS.Tools\bin\Debug\System.Data.SQLite.dll
+C:\Users\Y1\Documents\Visual Studio 2019\Projects\Technical Services Software - YK-47 Edition SQLite\TSS.Tools\bin\Debug\System.Data.SQLite.EF6.dll
+C:\Users\Y1\Documents\Visual Studio 2019\Projects\Technical Services Software - YK-47 Edition SQLite\TSS.Tools\bin\Debug\System.Data.SQLite.Linq.dll
+C:\Users\Y1\Documents\Visual Studio 2019\Projects\Technical Services Software - YK-47 Edition SQLite\TSS.Tools\bin\Debug\EntityFramework.xml
+C:\Users\Y1\Documents\Visual Studio 2019\Projects\Technical Services Software - YK-47 Edition SQLite\TSS.Tools\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\Y1\Documents\Visual Studio 2019\Projects\Technical Services Software - YK-47 Edition SQLite\TSS.Tools\bin\Debug\System.Data.SQLite.xml
+C:\Users\Y1\Documents\Visual Studio 2019\Projects\Technical Services Software - YK-47 Edition SQLite\TSS.Tools\obj\Debug\TSS.Tools.csproj.CoreCompileInputs.cache
+C:\Users\Y1\Documents\Visual Studio 2019\Projects\Technical Services Software - YK-47 Edition SQLite\TSS.Tools\obj\Debug\TSS.Tools.csproj.CopyComplete
+C:\Users\Y1\Documents\Visual Studio 2019\Projects\Technical Services Software - YK-47 Edition SQLite\TSS.Tools\obj\Debug\TSS.Tools.dll
+C:\Users\Y1\Documents\Visual Studio 2019\Projects\Technical Services Software - YK-47 Edition SQLite\TSS.Tools\obj\Debug\TSS.Tools.pdb
+C:\Users\Y1\Documents\Visual Studio 2019\Projects\Technical Services Software - YK-47 Edition SQLite\TSS.Tools\obj\Debug\TSS.Tools.csproj.AssemblyReference.cache
+C:\Users\GoPOS\Desktop\Technical Services Software\TSS.Tools\bin\Debug\TSS.Tools.dll.config
+C:\Users\GoPOS\Desktop\Technical Services Software\TSS.Tools\bin\Debug\TSS.Tools.dll
+C:\Users\GoPOS\Desktop\Technical Services Software\TSS.Tools\bin\Debug\TSS.Tools.pdb
+C:\Users\GoPOS\Desktop\Technical Services Software\TSS.Tools\bin\Debug\EntityFramework.dll
+C:\Users\GoPOS\Desktop\Technical Services Software\TSS.Tools\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\GoPOS\Desktop\Technical Services Software\TSS.Tools\bin\Debug\System.Data.SQLite.dll
+C:\Users\GoPOS\Desktop\Technical Services Software\TSS.Tools\bin\Debug\System.Data.SQLite.EF6.dll
+C:\Users\GoPOS\Desktop\Technical Services Software\TSS.Tools\bin\Debug\System.Data.SQLite.Linq.dll
+C:\Users\GoPOS\Desktop\Technical Services Software\TSS.Tools\bin\Debug\EntityFramework.xml
+C:\Users\GoPOS\Desktop\Technical Services Software\TSS.Tools\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\GoPOS\Desktop\Technical Services Software\TSS.Tools\bin\Debug\System.Data.SQLite.xml
+C:\Users\GoPOS\Desktop\Technical Services Software\TSS.Tools\obj\Debug\TSS.Tools.csproj.AssemblyReference.cache
+C:\Users\GoPOS\Desktop\Technical Services Software\TSS.Tools\obj\Debug\TSS.Tools.csproj.CoreCompileInputs.cache
+C:\Users\GoPOS\Desktop\Technical Services Software\TSS.Tools\obj\Debug\TSS.Tools.csproj.CopyComplete
+C:\Users\GoPOS\Desktop\Technical Services Software\TSS.Tools\obj\Debug\TSS.Tools.dll
+C:\Users\GoPOS\Desktop\Technical Services Software\TSS.Tools\obj\Debug\TSS.Tools.pdb
