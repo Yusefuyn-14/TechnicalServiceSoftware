@@ -1,0 +1,20 @@
+C:\Users\Yusefuyn\Documents\Visual Studio 2015\Projects\Technical Services Software\Entities\bin\Debug\TSS.Entities.dll
+C:\Users\Yusefuyn\Documents\Visual Studio 2015\Projects\Technical Services Software\Entities\bin\Debug\TSS.Entities.pdb
+C:\Users\Yusefuyn\Documents\Visual Studio 2015\Projects\Technical Services Software\Entities\obj\Debug\TSS.Entities.dll
+C:\Users\Yusefuyn\Documents\Visual Studio 2015\Projects\Technical Services Software\Entities\obj\Debug\TSS.Entities.pdb
+C:\Users\Yusefuyn\Documents\Visual Studio 2015\Projects\Technical Services Software - Optimisation\TSS.Entities\bin\Debug\TSS.Entities.dll
+C:\Users\Yusefuyn\Documents\Visual Studio 2015\Projects\Technical Services Software - Optimisation\TSS.Entities\bin\Debug\TSS.Entities.pdb
+C:\Users\Yusefuyn\Documents\Visual Studio 2015\Projects\Technical Services Software - Optimisation\TSS.Entities\obj\Debug\TSS.Entities.dll
+C:\Users\Yusefuyn\Documents\Visual Studio 2015\Projects\Technical Services Software - Optimisation\TSS.Entities\obj\Debug\TSS.Entities.pdb
+C:\Users\Y1\Documents\Visual Studio 2019\Projects\Technical Services Software - YK-47 Edition SQLite\TSS.Entities\bin\Debug\TSS.Entities.dll
+C:\Users\Y1\Documents\Visual Studio 2019\Projects\Technical Services Software - YK-47 Edition SQLite\TSS.Entities\bin\Debug\TSS.Entities.pdb
+C:\Users\Y1\Documents\Visual Studio 2019\Projects\Technical Services Software - YK-47 Edition SQLite\TSS.Entities\obj\Debug\TSS.Entities.csproj.AssemblyReference.cache
+C:\Users\Y1\Documents\Visual Studio 2019\Projects\Technical Services Software - YK-47 Edition SQLite\TSS.Entities\obj\Debug\TSS.Entities.csproj.CoreCompileInputs.cache
+C:\Users\Y1\Documents\Visual Studio 2019\Projects\Technical Services Software - YK-47 Edition SQLite\TSS.Entities\obj\Debug\TSS.Entities.dll
+C:\Users\Y1\Documents\Visual Studio 2019\Projects\Technical Services Software - YK-47 Edition SQLite\TSS.Entities\obj\Debug\TSS.Entities.pdb
+C:\Users\GoPOS\Desktop\Technical Services Software\TSS.Entities\bin\Debug\TSS.Entities.dll
+C:\Users\GoPOS\Desktop\Technical Services Software\TSS.Entities\bin\Debug\TSS.Entities.pdb
+C:\Users\GoPOS\Desktop\Technical Services Software\TSS.Entities\obj\Debug\TSS.Entities.csproj.AssemblyReference.cache
+C:\Users\GoPOS\Desktop\Technical Services Software\TSS.Entities\obj\Debug\TSS.Entities.csproj.CoreCompileInputs.cache
+C:\Users\GoPOS\Desktop\Technical Services Software\TSS.Entities\obj\Debug\TSS.Entities.dll
+C:\Users\GoPOS\Desktop\Technical Services Software\TSS.Entities\obj\Debug\TSS.Entities.pdb

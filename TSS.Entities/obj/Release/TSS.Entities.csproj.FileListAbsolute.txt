@@ -1,0 +1,4 @@
+C:\Users\Yusefuyn\Documents\Visual Studio 2015\Projects\Technical Services Software\Entities\bin\Release\TSS.Entities.dll
+C:\Users\Yusefuyn\Documents\Visual Studio 2015\Projects\Technical Services Software\Entities\bin\Release\TSS.Entities.pdb
+C:\Users\Yusefuyn\Documents\Visual Studio 2015\Projects\Technical Services Software\Entities\obj\Release\TSS.Entities.dll
+C:\Users\Yusefuyn\Documents\Visual Studio 2015\Projects\Technical Services Software\Entities\obj\Release\TSS.Entities.pdb
